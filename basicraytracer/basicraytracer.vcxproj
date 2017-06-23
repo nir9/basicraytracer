@@ -143,7 +143,11 @@
     <ClCompile Include="Math.cpp" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="ImageData.h" />
+=======
+    <ClInclude Include="Math.h" />
+>>>>>>> origin/master
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
