@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "Math.h"
+#include "ImageData.h"
+
 using namespace std;
 
 void main() {
@@ -9,9 +11,12 @@ void main() {
 	vector3f product = CrossProduct(v1, v2);
 
 	product.Print();
-	
-	
 
-	while(1) {}
+
+	ImageData image(1922, 1080);
+	
+	image.SaveToFile("C:/Users/User/Desktop/bit.bmp");
+
+	getchar();
 	
 }
